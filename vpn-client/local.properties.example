@@ -1,0 +1,3 @@
+sdk.dir=/path/to/android-sdk
+custom.application.id=com.joyoki.vpn
+remove.suffix=true

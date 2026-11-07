@@ -1,0 +1,27 @@
+# Local secrets / machine paths — never commit
+vpn-client/local.properties
+vpn-client/signing.properties
+vpn-client/*.keystore
+vpn-client/*.jks
+vpn-client/**/build/
+vpn-client/.gradle/
+vpn-client/.cxx/
+vpn-client/**/.cxx/
+
+# AgentNEO private exports (local copies only)
+**/agentneo-g1ek-config*
+**/*subscription*
+**/AgentNEO*.yaml
+**/AgentNEO*.yml
+vpn-client/.local-profiles/
+vpn-client/app/build/
+vpn-client/*/build/
+vpn-client/core/build/
+vpn-client/core/.cxx/
+vpn-client/**/.cxx/
+vpn-client/.gradle/
+vpn-client/local.properties
+vpn-client/signing.properties
+vpn-client/joyoki-debug.keystore
+vpn-client/release.keystore
+vpn-client/core/src/main/cpp/version.h
