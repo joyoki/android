@@ -1,0 +1,4 @@
+keystore.path=joyoki-debug.keystore
+keystore.password=CHANGE_ME
+key.alias=joyoki
+key.password=CHANGE_ME
